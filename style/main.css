@@ -1,0 +1,146 @@
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    a {
+        text-decoration: none;
+    }
+    .inner_wrapper {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    .left {
+        text-align: left!important;
+    }
+    .right {
+        text-align: right!important;
+    }
+    .clearfix {
+        float: none;
+        clear: both;
+    }
+
+
+
+.top {
+    background-image: url("../images/top_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #9bddd8;
+    text-align: center;
+    padding-top: 228px;
+}
+.top, .cityOfLove {
+    height: 740px;
+
+}
+    .top h1 {
+        color: #ffffff;
+        font-size: 80px;
+        text-transform: uppercase;
+        font-family: 'Inconsolata', monospace;
+        margin-bottom: 15px;
+    }
+    .top h1 span {
+        color: #01a2a6;
+    }
+   .top p {
+        color: white;
+        font-size: 16px;
+       font-family: 'Montserrat Alternates', sans-serif;
+   }
+   .top a {
+       color: #10273d;
+       background-color: #ffffa6;
+       padding: 14px;
+       border-radius: 24px;
+        text-transform: uppercase;
+       font-weight: 700;
+       display: block;
+       width: 200px;
+       font-family: 'Lato', sans-serif;
+       margin: 20px auto;
+       letter-spacing: 1px;
+
+   }
+   header {
+       height: 120px;
+       display: block;
+       position: fixed;
+       width: 100%;
+       padding-top: 35px;
+   }
+
+   header .logo {
+       width: 150px;
+
+   }
+   header ul.navigation {
+       list-style: none;
+       float: right;
+       padding-top: 15px;
+   }
+
+    header ul.navigation li {
+       float: left;
+       margin-left: 12px;
+   }
+    header ul.navigation li a{
+        color: white;
+        letter-spacing: 1px;
+        padding: 5px 12px;
+        border: 2px solid transparent;
+        font-family: 'Lato', sans-serif;
+    }
+    header ul.navigation li a:hover {
+    border: 2px solid #ffffff;
+        border-radius: 15px;
+
+    }
+    .cityOfLove .row .half{
+        width: 50%;
+        float: left;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .cityOfLove firstLine .inner_wrapper {
+        background-color: #ffffff;
+        opacity: 0.9;
+        margin-top: -40px;
+    }
+
+    .cityOfLove .row.firstLine{
+     height: 445px;
+    }
+    .cityOfLove .firstLine img {
+        padding-top: 50px;
+    }
+    .cityOfLove .firstLine h2 {
+
+        color: #29d9c2;
+        font-size: 60px;
+        font-family: 'Montserrat Alternates', sans-serif;
+        margin: 60px 0 40px ;
+    }
+
+    .cityOfLove .firstLine h2 span{
+       color: #o1A2A6
+    }
+    .cityOfLove .firstLine {
+    font-size: 16px;
+    color: #777;
+    line-height: 24px;
+    font-size: 'Lato', sans-serif;
+    }
+    .cityOfLove .row secondLine {
+        background-color: #f2fefe;
+        height: 360px;
+    }
+    .h2 div span {
+        color:#01a2a6;
+        text-align: top left;
+        padding-top:400px;
+
+    }
